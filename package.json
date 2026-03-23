@@ -1,0 +1,39 @@
+{
+  "name": "date_lab_system_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^5.2.1",
+    "knex": "^3.2.3",
+    "nodemon": "^3.1.14",
+    "objection": "^3.1.5",
+    "pg": "^8.20.0",
+    "tarn": "^3.0.2",
+    "tildify": "^2.0.0",
+    "to-regex-range": "^5.0.1",
+    "toidentifier": "^1.0.1",
+    "touch": "^3.1.1",
+    "type-is": "^2.0.1",
+    "undefsafe": "^2.0.5",
+    "unpipe": "^1.0.0",
+    "vary": "^1.1.2",
+    "wrappy": "^1.0.2",
+    "xtend": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomelAnte/date_lab_system_back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RomelAnte/date_lab_system_back/issues"
+  },
+  "homepage": "https://github.com/RomelAnte/date_lab_system_back#readme"
+}
