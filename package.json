@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "express": "^5.2.1",
-    "knex": "^3.2.3",
+    "knex": "^3.2.5",
     "nodemon": "^3.1.14",
     "objection": "^3.1.5",
     "pg": "^8.20.0",
