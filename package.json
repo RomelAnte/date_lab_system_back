@@ -6,6 +6,7 @@
   "dependencies": {
     "express": "^5.2.1",
     "knex": "^3.2.5",
+    "morgan": "^1.10.1",
     "nodemon": "^3.1.14",
     "objection": "^3.1.5",
     "pg": "^8.20.0",
@@ -22,7 +23,11 @@
     "xtend": "^4.0.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "new-migration": "npx knex migrate:make ",
+    "migrate": "npx knex migrate:latest",
+    "rollback": "npx knex migrate:rollback"
   },
   "repository": {
     "type": "git",
